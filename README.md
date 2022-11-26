@@ -1,6 +1,6 @@
 #DEMO
 
-GIT AND GITHUB PRACTISE
+HTML and CSS Practise by SuperSimpleDev 
 
 ## subheader
 
