@@ -8,9 +8,13 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
     }
-    .subscribe-butto:hover {
-        opacity: 10px;
+    .subscribe-button:hover {
+        opacity: 0.8;
+    }
+    .subscribe-button:active {
+        box-shadow: 2px 2px 5px rgb(0, 0, 0);
     }
 
 
@@ -20,14 +24,23 @@
         border-style: solid;
         color: blue;
         height: 36px;
-        width: 110px;
+        width: 80px;
         border-radius: 1px;
         cursor: pointer;
+        transition: backgroun-color 1s, color 1s;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    }
+    .join-button:hover {
+        background-color: rgb(41, 118, 212);
+        color: white;   
+    }
+    .join-button:active {
+        opacity: 0.7;
     }
 
 
     .tweet-button {
-        background-color: rgb(51, 134, 243);
+        background-color: rgb(12, 93, 199);
         color: white;
         border-color: none;
         border-style: none;
@@ -39,6 +52,13 @@
         cursor: pointer;
         margin-left: 8;
     }
+    .tweet-button:hover {
+        opacity: 0.8;
+    }
+    .tweet-button:active {
+        box-shadow: 2px 2px 5px rgb(4, 61, 185);
+    }
+    
 </style>
 
 
